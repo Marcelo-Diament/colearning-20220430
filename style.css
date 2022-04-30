@@ -75,6 +75,21 @@ main {
   min-height: 100vh;
 }
 
+h2 {
+  position: relative;
+  margin-bottom: 48px;
+}
+
+h2::after {
+  background-color: var(--primary);
+  bottom: -24px;
+  content: " ";
+  height: 2px;
+  left: 0;
+  position: absolute;
+  width: 56px;
+}
+
 section {
   padding: 60px 16px;
 }
