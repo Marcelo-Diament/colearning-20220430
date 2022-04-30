@@ -104,6 +104,72 @@ section#hero p {
   font-size: 2rem;
 }
 
+section#hero p::after {
+  animation-name: papeis;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  content: "dev";
+  margin-left: 8px;
+  border-bottom: 4px solid var(--primary);
+}
+
+@keyframes papeis {
+  0% {
+    content: "d";
+  }
+  2% {
+    content: "de";
+  }
+  4% {
+    content: "dev";
+  }
+  25% {
+    content: "m";
+  }
+  27% {
+    content: "mú";
+  }
+  29% {
+    content: "mús";
+  }
+  31% {
+    content: "músi";
+  }
+  33% {
+    content: "músic";
+  }
+  35% {
+    content: "músico";
+  }
+  50% {
+    content: "p";
+  }
+  52% {
+    content: "pr";
+  }
+  54% {
+    content: "pro";
+  }
+  56% {
+    content: "prof";
+  }
+  75% {
+    content: "d";
+  }
+  77% {
+    content: "da";
+  }
+  79% {
+    content: "da p";
+  }
+  81% {
+    content: "da pa";
+  }
+  83% {
+    content: "da paz";
+  }
+}
+
 /* /ESTRUTURA */
 
 /* MEDIA QUERIES */
