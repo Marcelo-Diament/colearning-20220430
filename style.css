@@ -98,7 +98,7 @@ section#hero {
 @media only screen and (min-width: 1200px) {
   header {
     display: flex;
-    flex: 0 1 300px;
+    flex: 0 0 300px;
   }
   main {
     flex: 1 1 calc(100% - 300px);
