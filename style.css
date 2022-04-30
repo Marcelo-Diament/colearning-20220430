@@ -1,3 +1,4 @@
+/* RESET */
 :root {
   --darker: #040b14;
   --dark: #212431;
@@ -51,4 +52,37 @@ h5,
 h6,
 p {
   font-size: 16px;
+}
+/* /RESET */
+
+/* ESTRUTURA */
+body {
+  display: flex;
+  flex-flow: row nowrap;
+  min-height: 100vh;
+}
+
+header {
+  background-color: var(--darker);
+  display: none;
+  flex: 0 1 0;
+  min-height: 100vh;
+}
+
+main {
+  background-color: var(--light);
+  flex: 1 0 100%;
+  min-height: 100vh;
+}
+/* /ESTRUTURA */
+
+/* MEDIA QUERIES */
+@media only screen and (min-width: 1200px) {
+  header {
+    display: flex;
+    flex: 0 1 300px;
+  }
+  main {
+    flex: 1 1 calc(100% - 300px);
+  }
 }
