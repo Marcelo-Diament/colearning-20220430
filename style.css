@@ -123,6 +123,15 @@ section#hero p::after {
   4% {
     content: "dev";
   }
+  10% {
+    content: "dev";
+  }
+  11% {
+    content: "";
+  }
+  24% {
+    content: "";
+  }
   25% {
     content: "m";
   }
@@ -141,6 +150,15 @@ section#hero p::after {
   35% {
     content: "músico";
   }
+  41% {
+    content: "músico";
+  }
+  42% {
+    content: "";
+  }
+  49% {
+    content: "";
+  }
   50% {
     content: "p";
   }
@@ -152,6 +170,15 @@ section#hero p::after {
   }
   56% {
     content: "prof";
+  }
+  62% {
+    content: "prof";
+  }
+  63% {
+    content: "";
+  }
+  74% {
+    content: "";
   }
   75% {
     content: "d";
@@ -167,6 +194,15 @@ section#hero p::after {
   }
   83% {
     content: "da paz";
+  }
+  89% {
+    content: "da paz";
+  }
+  90% {
+    content: "";
+  }
+  100% {
+    content: "";
   }
 }
 
