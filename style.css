@@ -70,10 +70,28 @@ header {
 }
 
 main {
-  background-color: var(--light);
+  background-color: var(--lighter);
   flex: 1 0 100%;
   min-height: 100vh;
 }
+
+section {
+  padding: 60px 16px;
+}
+
+section#skills,
+section#portfolio,
+section#testimonials {
+  background-color: var(--light);
+}
+
+section#hero {
+  background-image: url("./images/hero-bg.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
 /* /ESTRUTURA */
 
 /* MEDIA QUERIES */
@@ -84,5 +102,9 @@ main {
   }
   main {
     flex: 1 1 calc(100% - 300px);
+  }
+  section#hero {
+    background-size: cover;
+    background-attachment: fixed;
   }
 }
